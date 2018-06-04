@@ -1,4 +1,5 @@
 import React from "react"
+import Logo from 'images/logo.png'
 
 const FirstTest = ({}) => {
   return (
@@ -8,6 +9,7 @@ const FirstTest = ({}) => {
       <li>hello, デザイン</li>
       <li>hello, デザイン</li>
       <li>hello, デザイン</li>
+      <img src={Logo} />
     </ul>
   );
 }
