@@ -1,6 +1,7 @@
 import {connect} from "react-redux"
 import YmSelector from "../components/YmSelector"
 import {ym_change, read_schedules} from "../actions/index"
+import $ from "jquery";
 
 const mapStateToProps = (state) => {
   return {
