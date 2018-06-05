@@ -1,6 +1,7 @@
 import {connect} from "react-redux"
 import ScheduleAdd from "../components/ScheduleAdd"
 import {read_schedules,comment_change,new_schedule} from "../actions/index"
+import $ from "jquery";
 
 const mapStateToProps = (state) => {
   return {
